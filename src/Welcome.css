@@ -1,0 +1,20 @@
+body {
+  /*background: rgb(231,233,232);*/
+  background-image: url(https://static.pexels.com/photos/154246/pexels-photo-154246.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcomeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  color: rgb(50,50,50);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  margin-top: 0px;
+  letter-spacing: 10px;
+  font-size: 2em;
+}

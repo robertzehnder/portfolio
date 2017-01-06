@@ -1,0 +1,167 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.main-container {
+  height: 100%;
+}
+.content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bradley {
+  font-size: 5em;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(50,50,50);
+  margin-right: 30px;
+}
+.cravens {
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(50,50,50);
+}
+.about {
+  font-family: 'Megrim', cursive;
+  font-size: 8em;
+  letter-spacing: 20px;
+  font-weight: lighter;
+}
+.works {
+  font-family: 'Megrim', cursive;
+  color: rgb(50,50,50);
+  font-size: 8em;
+  letter-spacing: 20px;
+  font-weight: lighter;
+  margin: 70px;
+}
+.contact {
+  font-family: 'Megrim', cursive;
+  color: rgb(50,50,50);
+  font-size: 8em;
+  letter-spacing: 20px;
+  font-weight: lighter;
+}
+.aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  flex-direction: column;
+  color: rgb(50,50,50);
+}
+.aboutMe {
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+}
+.contact {
+  margin: 0px;
+  color: rgb(50,50,50);
+}
+.contactHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(50,50,50);
+  font-family: 'Raleway', sans-serif;
+}
+.contactInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(50,50,50);
+  font-family: 'Raleway', sans-serif;
+}
+.contactName {
+  letter-spacing: 10px;
+  font-size: 2em;
+}
+.mobile {
+  border-right: 1px solid rgb(50,50,50);
+  color: rgb(50,50,50);
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  font-size: 1.2em;
+}
+.email {
+  color: rgb(50,50,50);
+  font-family: 'Raleway', sans-serif;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+.contactContainer {
+  width: 60%;
+}
+.simon {
+  background-image: url('../public/images/simon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+}
+.drift {
+  background-image: url('../public/images/drift.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  margin-right: 10px;
+}
+.pgaapi {
+  background-image: url('../public/images/pga-tour.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  margin-right: 10px;
+}
+/*.golfMaster {
+  background-image: url('../public/images/golfmaster.png');
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 300px;
+  margin-right: 10px;
+}*/
+.picture {
+  margin: 5px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.projects {
+  display: flex;
+  width: 85%;
+  height: 240px;
+  margin-top: -65px;
+}
+.worksContainer {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
