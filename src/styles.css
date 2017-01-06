@@ -69,6 +69,7 @@ body {
 .aboutMe {
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
+  margin-top: -65px;
 }
 .contact {
   margin: 0px;
